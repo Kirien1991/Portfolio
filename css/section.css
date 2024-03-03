@@ -1,0 +1,39 @@
+.section {
+  height: 325px;
+}
+
+.wrapper__section {
+  max-width: 1170px;
+  height: 228px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.section__item {
+}
+
+.section__title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+  padding-top: 25px;
+}
+
+.section__title:hover {
+  text-decoration: underline;
+  text-decoration-color: aqua;
+}
+
+.content__desc--title {
+  font-size: 14px;
+  line-height: 28px;
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+.content__desc--title:hover {
+  text-decoration: underline;
+  text-decoration-color: aqua;
+}

@@ -1,0 +1,41 @@
+.contact {
+}
+
+.wrapper__contact {
+  max-width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.contact__item {
+}
+
+.contact__title {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 54px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact__title:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(34, 109, 179);
+}
+
+.contact__text {
+}
+
+.contact__button {
+}
+
+.contact__image {
+}
+
+.contact__text--bottom {
+}
+
+.contact__text--bottom:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(34, 109, 179);
+}
