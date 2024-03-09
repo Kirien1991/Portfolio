@@ -1,0 +1,53 @@
+.header {
+  background-color: #f1f1f1;
+}
+
+.wrapper {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.header__top {
+}
+
+.logo {
+}
+s .logo:after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #fda300;
+}
+
+.nav {
+}
+
+.nav__link {
+}
+
+.nav__link:hover {
+}
+
+.nav__link--grey {
+}
+
+.nav__link--grey:hover {
+}
+
+.header__bottom {
+}
+
+.content {
+}
+
+.content__desc {
+}
+
+.header__top {
+}
+
+.header_bottom {
+}
