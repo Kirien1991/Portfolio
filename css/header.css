@@ -13,7 +13,8 @@
 
 .logo {
 }
-s .logo:after {
+
+.logo:after {
   content: "";
   display: block;
   width: 8px;
