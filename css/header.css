@@ -1,17 +1,31 @@
 .header {
   background-color: #f1f1f1;
+  height: 770px;
 }
 
-.wrapper {
+.header__wrapper {
   max-width: 1250px;
   margin: 0 auto;
   padding: 0 30px;
+  padding-top: 46px;
 }
 
 .header__top {
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 32px;
+  letter-spacing: 0.9px;
+  color: #000000;
+}
+
+.logo:hover {
+  text-decoration: underline 1px;
+  text-decoration-color: aqua;
 }
 
 .logo:after {
@@ -21,34 +35,102 @@
   height: 8px;
   border-radius: 100%;
   background-color: #fda300;
+  position: relative;
+  bottom: 5px;
+  left: 106px;
 }
 
 .nav {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
 }
 
 .nav__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  padding-right: 51px;
+  padding-top: 10px;
+}
+
+.nav__link:last-child {
+  padding-right: 0;
 }
 
 .nav__link:hover {
+  text-decoration: underline 1px;
+  text-decoration-color: aqua;
 }
 
 .nav__link--grey {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #606060;
 }
 
 .nav__link--grey:hover {
+  text-decoration: underline 1px;
+  text-decoration-color: aqua;
 }
 
 .header__bottom {
+  padding-top: 195px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .content {
 }
 
+.content__title {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 66px;
+  color: #000000;
+  letter-spacing: 1.3px;
+}
+
+.content__title:hover {
+  text-decoration: underline 1px;
+  text-decoration-color: aqua;
+}
+
+.content__text {
+  letter-spacing: 0.7px;
+}
+
 .content__desc {
+  padding-top: 20px;
 }
 
-.header__top {
+.header__top--content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
 }
 
-.header_bottom {
+.header__top--content:hover {
+  text-decoration: underline 1px;
+  text-decoration-color: aqua;
+}
+
+.header__bottom--content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.header__bottom--content:hover {
+  text-decoration: underline 1px;
+  text-decoration-color: aqua;
+}
+
+.header__image {
+  display: flex;
+  position: relative;
+  bottom: 124px;
+  right: 20px;
 }
