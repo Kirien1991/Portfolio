@@ -1,5 +1,6 @@
 @import "./reset.css";
 @import "./header.css";
+@import "./contacts.css";
 
 body {
   font-family: "Poppins", sans-serif;
