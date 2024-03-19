@@ -1,7 +1,12 @@
 @import "./reset.css";
-@import "./header.css";
-@import "./contacts.css";
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 30px;
+  padding-top: 13px;
 }

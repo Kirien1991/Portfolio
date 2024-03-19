@@ -1,38 +1,111 @@
-.contacts {
-    padding-top: 70px;
-    padding-bottom: 70px;
+.contact {
+  background-color: #fff;
+  padding-top: 88px;
 }
 
-.wrapper__contacts {
-    max-width: 342px;
-    margin: 0 auto;
+.wrapper__contact {
+  max-width: 500px;
+  margin: 0 auto;
 }
 
-.contacts__images {
-    display: flex;
-    justify-content: space-between;
+.contact__title {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 54px;
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  padding-right: 17px;
 }
 
-.contacts__images img {
-    width: 40px;
-    height: 40px;
+.contact__title:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(34, 109, 179);
 }
 
+.contact__title:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(34, 109, 179);
+}
 
+.contact__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  padding-left: 92px;
+  padding-top: 39px;
+}
 
-.contacts__images img:nth-child(1) {
-    width: 40.17px;
-    height: 40.06px;
+.contact__text:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(34, 109, 179);
 }
-.contacts__images img:nth-child(2) {
-    width: 39.11px;
-    height: 40px;
+
+.contact__text--top {
 }
-.contacts__images img:nth-child(3) {
-    width: 40.11px;
-    height: 40px;
+
+.contact__text--bot {
+  padding-left: 67px;
 }
-.contacts__images img:nth-child(4) {
-    width: 39.11px;
-    height: 40px;
+
+.contact__button {
+  display: flex;
+  justify-content: center;
+  width: 180px;
+  height: 42px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  background: black;
+  margin-left: 150px;
+  margin-top: 40px;
+  border-radius: 21px;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact__button:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(34, 109, 179);
+}
+
+.contact__image {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 81px;
+}
+
+.image__bottom {
+  padding-left: 25px;
+  padding-right: 27px;
+  max-width: 40px;
+}
+
+.image__bottom:last-child {
+  padding-right: 0px;
+}
+
+.contact__text--bottom {
+  padding-top: 39px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #828282;
+}
+
+.contact__text--bottom:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(34, 109, 179);
+}
+
+.around {
+  display: flex;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+.around--bottom {
+  padding-left: 110px;
 }

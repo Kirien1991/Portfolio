@@ -4,15 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio2</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/main.css" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/section.css" />
+    <link rel="stylesheet" href="/css/portfolio.css" />
+    <link rel="stylesheet" href="/css/contacts.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="header__wrapper">
+    <header class="header">
+      <div class="wrapper">
         <div class="header__top">
           <a href="#" class="logo">Kelvin</a>
 
@@ -26,37 +33,133 @@
         </div>
 
         <div class="header__bottom">
-          <div class="content">
+          <div class="content__block">
             <div class="content__title">
               Kelvin Kramer <br />
-              <span class="content__text">Designer & Developer</span>
+              <span>Designer & Developer</span>
             </div>
 
             <div class="content__desc">
-              <span class="header__top--content">
-                I’m a portrait, fashion and lifestyle photographer living In New York City.
-              </span>
-              <br />
-              <span class="header__bottom--content">During my thirteen year tenure here.</span>
-            </div>    
+              <span class="header__top--content"
+                >I’m a portrait, fashion and lifestyle photographer living In
+                New York City.</span
+              ><br />
+              <span class="header__bottom--content"
+                >During my thirteen year tenure here.</span
+              >
+            </div>
           </div>
-          <div class="header__image">
-            <img src="/image/header/hero.png" alt="hero" />
+
+          <div class="content__block--img">
+            <div class="header__image">
+              <img src="/image/header/hero.png" alt="hero" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="section">
+      <div class="wrapper__section">
+        <div class="section__item">
+          <div class="section__block">
+            <img src="/image/services/01.svg" alt="" class="section__image" />
+            <a href="#" class="section__link">UI/UX Design</a>
+            <p class="section__title">
+              Our design is translated into comprehensive digital<br />environments
+              built on latest development<br />standards.
+            </p>
+          </div>
+
+          <div class="section__block">
+            <img src="/image/services/02.svg" alt="" class="section__image" />
+            <a href="#" class="section__link">Development</a>
+            <p class="section__title section__title--txt">
+              Our design is translated into comprehensive digital<br />environments
+              built on latest development<br />standards.
+            </p>
+          </div>
+
+          <div class="section__block">
+            <img
+              src="/image/services/03.svg"
+              alt=""
+              class="section__image section__image--last"
+            />
+            <a href="#" class="section__link">software testing</a>
+            <p class="section__title section__title--txt">
+              Our design is translated into comprehensive digital<br />environments
+              built on latest development<br />standards.
+            </p>
           </div>
         </div>
       </div>
     </div>
-    <div class="contacts">
-      <div class="wrapper__contacts">
-        <div class="contacts__images">
-          <img src="image/socials/LinkedIn.svg">
-          <img src="image/socials/Instargam.svg">
-          <img src="image/socials/Behance.svg">
-          <img src="image/socials/Dribble.svg">
+
+    <div class="portfolio">
+      <div class="wrapper__portfolio">
+        <div class="portfolio__item">
+          <div class="portfolio__content">
+            <h2 class="Portfolio__title">Portfolio</h2>
+            <img
+              src="/image/portfolio/01.jpg"
+              alt=""
+              class="portfolio__image"
+            />
+            <a href="" class="portfolio__link"
+              >Online fashion store - Homepage</a
+            >
+          </div>
+
+          <div class="portfolio__content">
+            <img
+              src="/image/portfolio/02.jpg"
+              alt=""
+              class="portfolio__image portfolio__image--average"
+            />
+            <a href="" class="portfolio__link portfolio__link--average"
+              >Reebok Store - Concept</a
+            >
+          </div>
+
+          <div class="portfolio__content">
+            <img
+              src="/image/portfolio/03.jpg"
+              alt=""
+              class="portfolio__image portfolio__image--last"
+            />
+            <a href="" class="portfolio__link portfolio__link--last"
+              >Braun Landing Page - Concept</a
+            >
+          </div>
         </div>
       </div>
     </div>
-    
+
+    <footer class="contact">
+      <div class="wrapper__contact">
+        <h1 class="contact__title">Contacts</h1>
+        <p class="contact__text">
+          <span class="contact__text--top">Want to know more or just chat?</span
+          ><br /><span class="contact__text--bot">You are welcome!</span>
+        </p>
+        <div class="contact__button">
+          <button class="btn">Send message</button>
+        </div>
+        <div class="contact__image">
+          <img src="/image/socials/01.svg" alt="" class="image__bottom" />
+          <img src="/image/socials/02.svg" alt="" class="image__bottom" />
+          <img src="/image/socials/03.svg" alt="" class="image__bottom" />
+          <img src="/image/socials/04.svg" alt="" class="image__bottom" />
+        </div>
+        <p class="contact__text--bottom">
+          <span class="around">Like me on</span><br />
+          <span class="around--bottom"
+            >LinkedIn, Instagram, Behance, Dribble</span
+          >
+        </p>
+      </div>
+    </footer>
     <script src="/js/main.js"></script>
   </body>
 </html>
