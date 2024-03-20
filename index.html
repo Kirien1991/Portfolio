@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/section.css" />
@@ -18,11 +19,11 @@
     <link rel="stylesheet" href="/css/contacts.css" />
   </head>
   <body>
+    <!--Header-->
     <header class="header">
       <div class="wrapper">
         <div class="header__top">
           <a href="#" class="logo">Kelvin</a>
-
           <div class="nav">
             <a href="#" class="nav__link nav__link--grey">Home</a>
             <a href="#" class="nav__link">Works</a>
@@ -35,67 +36,86 @@
         <div class="header__bottom">
           <div class="content__block">
             <div class="content__title">
-              Kelvin Kramer <br />
-              <span>Designer & Developer</span>
+              <h1>
+                Kelvin Kramer
+                <br />
+                <span>Designer & Developer</span>
+              </h1>
             </div>
-
             <div class="content__desc">
-              <span class="header__top--content"
-                >I’m a portrait, fashion and lifestyle photographer living In
-                New York City.</span
-              ><br />
-              <span class="header__bottom--content"
-                >During my thirteen year tenure here.</span
-              >
+              <p>
+                <span class="header__top--content"
+                  >I’m a portrait, fashion and lifestyle photographer living In
+                  New York City.</span
+                ><br />
+                <span class="header__bottom--content"
+                  >During my thirteen year tenure here.</span
+                >
+              </p>
             </div>
           </div>
-
           <div class="content__block--img">
-            <div class="header__image">
-              <img src="/image/header/hero.png" alt="hero" />
-            </div>
+            <img
+              src="/image/header/hero.png"
+              alt="hero"
+              class="header__image"
+            />
           </div>
         </div>
       </div>
     </header>
-
+    <!--Section-->
     <div class="section">
-      <div class="wrapper__section">
+      <div class="wrapper wrapper--section">
         <div class="section__item">
           <div class="section__block">
-            <img src="/image/services/01.svg" alt="" class="section__image" />
-            <a href="#" class="section__link">UI/UX Design</a>
-            <p class="section__title">
-              Our design is translated into comprehensive digital<br />environments
-              built on latest development<br />standards.
-            </p>
+            <div class="section__image">
+              <img src="/image/services/01.svg" alt="" />
+            </div>
+            <div class="section__link">
+              <a href="#" class="section__lin">UI/UX Design</a>
+            </div>
+            <div class="section__title">
+              <p>
+                Our design is translated into comprehensive digital<br />environments
+                built on latest development<br />standards.
+              </p>
+            </div>
           </div>
 
           <div class="section__block">
-            <img src="/image/services/02.svg" alt="" class="section__image" />
-            <a href="#" class="section__link">Development</a>
-            <p class="section__title section__title--txt">
-              Our design is translated into comprehensive digital<br />environments
-              built on latest development<br />standards.
-            </p>
+            <div class="section__image section__image--last">
+              <img src="/image/services/01.svg" alt="" />
+            </div>
+            <div class="section__link">
+              <a href="#" class="section__lin">Development</a>
+            </div>
+            <div class="section__title section__title--txt">
+              <p>
+                Our design is translated into comprehensive digital<br />environments
+                built on latest development<br />standards.
+              </p>
+            </div>
           </div>
 
           <div class="section__block">
-            <img
-              src="/image/services/03.svg"
-              alt=""
-              class="section__image section__image--last"
-            />
-            <a href="#" class="section__link">software testing</a>
-            <p class="section__title section__title--txt">
-              Our design is translated into comprehensive digital<br />environments
-              built on latest development<br />standards.
-            </p>
+            <div class="section__image section__image--last">
+              <img src="/image/services/01.svg" alt="" />
+            </div>
+            <div class="section__link">
+              <a href="#" class="section__lin">software testing</a>
+            </div>
+            <div class="section__title section__title--txt">
+              <p>
+                Our design is translated into comprehensive digital<br />environments
+                built on latest development<br />standards.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
+    <!--Portfolio-->
     <div class="portfolio">
       <div class="wrapper__portfolio">
         <div class="portfolio__item">
@@ -135,7 +155,7 @@
         </div>
       </div>
     </div>
-
+    <!--Contacts-->
     <footer class="contact">
       <div class="wrapper__contact">
         <h1 class="contact__title">Contacts</h1>
