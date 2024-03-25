@@ -1,8 +1,9 @@
 .portfolio {
   background-color: #f1f1f1;
+  padding-bottom: 90px;
 }
 
-.wrapper__portfolio {
+.wrapper--portfolio {
 }
 
 .portfolio__item {
@@ -17,7 +18,7 @@
   padding-top: 36px;
 }
 
-.Portfolio__title {
+.portfolio__title {
   font-size: 34px;
   font-weight: 600;
   line-height: 51px;
