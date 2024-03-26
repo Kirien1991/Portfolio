@@ -1,0 +1,9 @@
+/*Header*/
+@media (max-width: 1250px) {
+  .nav {
+    display: none;
+  }
+  .header__hamburger {
+    display: flex;
+  }
+}

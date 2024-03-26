@@ -9,18 +9,18 @@
 
 .services__item {
   display: flex;
-  column-gap: 30px;
+  column-gap: 28px;
 }
 
 .services__block {
 }
 
 .services__block--block2 {
-  padding-left: 13px;
+  padding-left: 14px;
 }
 
 .services__block--block3 {
-  padding-left: 14px;
+  padding-left: 15px;
 }
 
 .services__image {

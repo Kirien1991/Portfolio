@@ -46,7 +46,6 @@
   font-weight: 500;
   font-size: 14px;
   padding-right: 51px;
-  padding-top: 10px;
   color: black;
 }
 
@@ -109,4 +108,22 @@
 }
 
 .header__image {
+}
+
+/*Mobile*/
+.header__hamburger {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 33px;
+  height: 20px;
+  background-color: f1f1f1;
+}
+
+.header__line {
+  height: 4px;
+  background-color: black;
 }
