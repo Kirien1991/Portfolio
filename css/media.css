@@ -17,6 +17,17 @@
     padding-top: 25px;
   }
 
+  .content__title h1 {
+    font-size: 34px;
+    line-height: 51px;
+  }
+
+  .content__title span {
+    font-size: 28px;
+    text-transform: none;
+    line-height: 42px;
+  }
+
   .content__block {
     padding-top: 0px;
   }
