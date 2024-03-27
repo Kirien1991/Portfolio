@@ -111,6 +111,8 @@
 }
 
 /*Mobile*/
+
+/*Open*/
 .mobile__hamburger {
   position: fixed;
   top: 50px;
@@ -128,6 +130,7 @@
   background-color: black;
 }
 
+/*Close*/
 .mobile__list {
   position: fixed;
   top: 50px;
