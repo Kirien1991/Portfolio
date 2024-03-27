@@ -111,10 +111,10 @@
 }
 
 /*Mobile*/
-.header__hamburger {
+.mobile__hamburger {
   position: fixed;
-  top: 20px;
-  right: 30px;
+  top: 50px;
+  right: 45px;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -123,7 +123,31 @@
   background-color: f1f1f1;
 }
 
-.header__line {
+.mobile__line {
   height: 4px;
   background-color: black;
+}
+
+.mobile__list {
+  position: fixed;
+  top: 50px;
+  right: 45px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 23px;
+  height: 23px;
+  background-color: #ffffff;
+}
+
+.mobile__top {
+  height: 4px;
+  background-color: #828282;
+  rotate: 45deg;
+}
+
+.mobile__bottom {
+  height: 4px;
+  background-color: #828282;
+  rotate: -45deg;
 }
