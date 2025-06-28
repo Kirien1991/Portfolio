@@ -1,9 +1,11 @@
 .header {
-  background-image: url("/image/Bitmap.png");
+  background-image: url("/image/light.png");
 
   .wrapper {
-    h1 {
-      color: aqua;
+    background-color: cadetblue;
+    max-width: 1440px;
+    .text {
+      color: rgb(9, 133, 95);
     }
   }
 }

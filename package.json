@@ -7,10 +7,11 @@
   },
   "author": "Kirill",
   "license": "ISC",
-  "description": "",
+  "description": "��#\u0000 \u0000t\u0000o\u0000d\u0000o\u0000\r\u0000 \u0000",
   "devDependencies": {
     "gulp": "^5.0.0",
     "gulp-sass": "^5.1.0",
-    "sass": "^1.74.1"
-  }
+    "sass": "^1.89.2"
+  },
+  "keywords": []
 }

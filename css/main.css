@@ -1,0 +1,10 @@
+.header {
+  background-image: url("/image/light.png");
+}
+.header .wrapper {
+  background-color: cadetblue;
+  max-width: 1440px;
+}
+.header .wrapper .text {
+  color: rgb(9, 133, 95);
+}
